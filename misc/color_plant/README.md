@@ -5,5 +5,5 @@
 ![consignes](img/consignes2.png)
 
 
-![plant](img/color_plant1.png)
-![plant](img/color_plant2.png)
+![plant](img/color_plant_1.png)
+![plant](img/color_plant_2.png)
