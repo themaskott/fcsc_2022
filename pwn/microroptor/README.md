@@ -109,7 +109,7 @@ s_m3t4ll1cA_00102008                            XREF[3]:     FUN_00101178:001011
 ```
 
 
-#### 4 - Anaalyse dynamique
+#### 4 - Analyse dynamique
 
 
 ```c
