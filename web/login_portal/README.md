@@ -1,16 +1,20 @@
 ### WEB / Login Portal
 
-![consignes](img/consignes.png)
-
+<p align="center">
+  <img src="img/consignes.png" />
+</p>
 
 ### Tour du site
 
 Le site comprends deux pages, l'une pour s'authentifier, l'autre nous affiche le code source du site...
 
-![cap1](img/cap1.png)
+<p align="center">
+  <img src="img/cap1.png" />
+</p>
 
-![cap1](img/cap2.png)
-
+<p align="center">
+  <img src="img/cap2.png" />
+</p>
 
 
 Notre attention est vite attirée par le mécanisme implémenté pour l'authentification, et les hash de mots de passe codés en dur (never do that !)
@@ -69,4 +73,6 @@ Puis l'utiliser pour nous connecter.
 
 Pour cela, en transcodant le caractère invisible `\u3164` en héxa `%E3%85%A4`
 
-![cap1](img/cap3.png)
+<p align="center">
+  <img src="img/cap3.png" />
+</p>

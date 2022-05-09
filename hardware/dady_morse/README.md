@@ -1,7 +1,8 @@
 ### HARDWARE / Daddy morse
 
-
-![consignes](img/daddy_morse.png)
+<p align="center">
+  <img src="img/daddy_morse.png" />
+</p>
 
 
 ### Files

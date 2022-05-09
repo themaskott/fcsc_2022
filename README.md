@@ -1,6 +1,6 @@
 ### FCSC 2022
 
-Quelques write up du France CuberSecurity Challenge organisé par l'ANSSI du 29/04 au 08/05/2022.
+Quelques write up du France CyberSecurity Challenge organisé par l'ANSSI du 29/04 au 08/05/2022.
 
 
 #### Hardware
@@ -29,5 +29,10 @@ Félicitation à tous les concépteurs de challenge pour leur justesse et leur v
 
 Pour ma part je suis plutôt content d'une honorable 44e place au général, 11e en hors catégorie ... il m'a manqué pas grand chose sur les deux derniers jours pour faire encore mieux !
 
-![rank](img/Rank_final.png)
-![rank](img/Rank_final_hc.png)
+<p align="center">
+  <img src="img/Rank_final.png" />
+</p>
+
+<p align="center">
+  <img src="img/Rank_final_hc.png" />
+</p>

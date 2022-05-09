@@ -1,7 +1,8 @@
 ### HARDWARE / Daddy morse
 
-
-![consignes](img/i2cyoutoo.png)
+<p align="center">
+  <img src="img/i2cyoutoo.png" />
+</p>
 
 
 ### Files
@@ -19,9 +20,9 @@ N'ayant pas de grande connaissances en analyse de hardwares, quelques recherches
 
 Pour ma part, j'ai installé Sigrok et la version graphique PulseView pour ouvrir la capture.
 
-
-
-![step1](img/cap1.png)
+<p align="center">
+  <img src="img/cap1.png" />
+</p>
 
 
 Deux signaux sont capturés, `D2` qui est régulier et doit correspondre à l'horloge, `D3` qui doit porter l'information.
@@ -32,8 +33,9 @@ En faisant quelques recherches sur internet, c'est celui qui m'a semblé le plus
 
 Une troisième ligne apparaît alors, il n'y a plus qu'à configurer le décodeur, et récupérer son interprétation des datas.
 
-![step1](img/cap3.png)
-
+<p align="center">
+  <img src="img/cap3.png" />
+</p>
 
 Le menu permet d'exporter les informations extraites au format texte.
 
@@ -79,4 +81,6 @@ Le menu permet d'exporter les informations extraites au format texte.
 
 Et une petite ligne de bash pour finir la magie :
 
-![flag](img/flag.png)
+<p align="center">
+  <img src="img/flag.png" />
+</p>

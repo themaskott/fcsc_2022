@@ -1,7 +1,10 @@
 ### SIDE CHANNEL / Never Skip Class Nor Squaring
 
 
-![consignes](img/consignes.png)
+<p align="center">
+  <img src="img/consignes.png" />
+</p>
+
 
 ### FILES
 
@@ -15,7 +18,9 @@ Une bonne ressource pour comprendre le fonctionnement de l'algorithme S&M :
 http://zanotti.univ-tln.fr/ALGO/II/SquareMultiply.html
 
 
-![sqml](img/sqml.png)
+<p align="center">
+  <img src="img/sqml.png" />
+</p>
 
 La clef est parcouru de son bit de poids fort à son bit de poids faible, pour chaque bit l'élévation au carré est effectuée, pour les bits à 1, la multiplication est effectuée.
 
