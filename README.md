@@ -6,6 +6,7 @@ Quelques write up du France CyberSecurity Challenge organisé par l'ANSSI du 29/
 #### Pwn
 
 - [Microroptor](pwn/microroptor)
+- [XORaaS](pwn/xoraas)
 
 #### Hardware
 - [Daddy morse](hardware/dady_morse)
