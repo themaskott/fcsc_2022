@@ -337,6 +337,7 @@ Dans l'idéal il faudrait écraser 0x0000000000401213 par l'adresse de la foncti
 
 Mais on a que 145 caractères, donc 5 de plus que le buffer ....
 
+
 En rajoutant 5 * 'A' à la fin de notre input :
 
 ```gdb-peda$ x/50gx $rsp
@@ -357,7 +358,11 @@ Effectivement, le 5e 'A' vient écraser le LSB du saved $rbp.
 Si, on continue le flow d'exécution, nous retournons bien dans le `main`, puis le programme crash en quittant `main`.
 
 En regardant les pointeurs : `RBP: 0x3838383838383838 ('88888888')`
-
-
+Tiens, `0x00007fffffffdf41` pointe donc dans notre buffer :)
+Si on écrase le LSB du saved RBP avec 0x00 on aura :  0x7fffffffdf00 -> 0x4242424242424242
 
 ### Exploitation
+
+L'idée est donc d'avoir un payload de la forme
+
+('NOP + shellcode') ^ 'z' + 'z' * 140 + 'A' * 4 + '0x00'
