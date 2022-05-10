@@ -23,7 +23,7 @@ Tout d'abord on note les sécurités activées :
 - RELRO : on va pas pouvoir écrire partout
 
 En revanche pas de canary :)
-Reste à suposer que l'ASLR est activtée sur le serveur.
+Reste à supposer que l'ASLR est activée sur le serveur.
 
 
 <p align="center">
@@ -45,7 +45,7 @@ Rien de spécial du côté des bibliothèques.
 On note que l'on peut écrire dans .got, .data, .bss
 
 
-#### 2 - Lancement du binaire pour
+#### 2 - Lancement du binaire
 
 Le programme nous donne une adresse, demande une saisie et renvoie un message.
 
